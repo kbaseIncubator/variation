@@ -2,7 +2,7 @@ module-name:
     variation
 
 module-description:
-    A KBase module
+    Variation detection -- SNPs, insertions, deletions
 
 service-language:
     python
