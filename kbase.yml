@@ -2,7 +2,7 @@ module-name:
     variation
 
 module-description:
-    Variation detection -- SNPs, insertions, deletions
+    Variation detection of SNPs, insertions, deletions
 
 service-language:
     python
