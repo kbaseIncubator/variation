@@ -28,7 +28,7 @@
 		"service-mapping": {
 			"url": "",
 			"name": "variation",
-			"method": "",
+			"method": "hello_world",
 			"input_mapping": [
 				{
 					"input_parameter": "parameter_1",
