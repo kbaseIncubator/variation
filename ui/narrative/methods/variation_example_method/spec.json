@@ -13,7 +13,7 @@
 	},
 	"parameters": [ 
 		{
-			"id": "parameter_1",
+			"id": "input",
 			"optional": true,
 			"advanced": false,
 			"allow_multiple": false,
@@ -28,17 +28,23 @@
 		"service-mapping": {
 			"url": "",
 			"name": "variation",
-			"method": "hello_world",
+			"method": "variation_example_method",
 			"input_mapping": [
 				{
-					"input_parameter": "parameter_1",
-					"target_property": "parameter_1"
+					"input_parameter": "input",
+					"target_property": "input"
 				}
 			],
 			"output_mapping": [
 				{
-					"input_parameter": "output_1",
-					"target_property": "output_1"
+				      "service_method_output_path": [0],
+         			      "target_property": "variation_example_method"
+
+
+				},
+				{
+					"input_parameter": "output",
+					"target_property": "output"
 				},
 				{
 					"narrative_system_variable": "workspace",
